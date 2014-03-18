@@ -34,4 +34,4 @@ mean(gDat$lifeExp)
 with(gDat, mean(lifeExp))
 with(subset(gDat, country == "Cambodia"), mean(lifeExp))
 X  <- 1:4
-X
+dev.print(png, "session2", width = 480)
